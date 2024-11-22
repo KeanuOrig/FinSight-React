@@ -1,7 +1,7 @@
 import axios from "axios";
-
+console.log(import.meta.env.VITE_API_BASE_URL)
 const axiosInstance = axios.create({
-  baseURL: process.env.REACT_API_BASE_URL, // todo: put in env
+  baseURL: import.meta.env.VITE_API_BASE_URL, // todo: put in env
   timeout: 10000, // Timeout for requests in milliseconds
   headers: {
     "Content-Type": "application/json",
