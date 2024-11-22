@@ -5,8 +5,8 @@
 
 ## Tech Stack
 - **Backend**: Python, Django - https://github.com/KeanuOrig/FinSight
-- **Backend**: React, Typescript - https://github.com/KeanuOrig/FinSight-React
-- 
+- **Frontend**: React, Typescript - https://github.com/KeanuOrig/FinSight-React
+  
 ## Project Structure
 
 The project is follows the Atomic Design Pattern.
